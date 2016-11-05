@@ -7,6 +7,7 @@ function loadModule(filename, module, require) {
 	eval(wrappedSrc);
 }
 
+/* REQUIRE */
 const require = (moduleName) => {
 	console.log(`require invoked for module ${moduleName}`);
 	const id = require.resolve(moduleName);
@@ -18,7 +19,7 @@ const require = (moduleName) => {
 	// module metadata
 	const module = {
 		exports: {},
-		id: id
+		id: id // path to file
 	};
 	
 	// update cache
@@ -33,3 +34,5 @@ const require = (moduleName) => {
 
 require.cache = {};
 require.resolve = (moduleName) => {};
+/* REQUIRE END */
+// TODO PAGE 50 MODULE DEFINE

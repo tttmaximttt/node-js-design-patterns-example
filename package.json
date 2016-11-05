@@ -1,0 +1,26 @@
+{
+  "name": "nodeDesignPatterns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "asyncFlowGenerators.js",
+  "dependencies": {
+    "co": "^4.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tttmaximttt/node-js-design-patterns-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tttmaximttt/node-js-design-patterns-example/issues"
+  },
+  "homepage": "https://github.com/tttmaximttt/node-js-design-patterns-example#readme"
+}
