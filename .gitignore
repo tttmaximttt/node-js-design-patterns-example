@@ -1,4 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
 /streams/gziping.js.gz
 /streams/_gzipingReceive.js
+/fixtures/data1.txt
+/fixtures/data2.txt
+/fixtures/data3.txt
 asyncFlowPatterns/clone_of_asyncFlowGenerators.js

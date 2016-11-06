@@ -4,6 +4,7 @@
   "description": "",
   "main": "asyncFlowGenerators.js",
   "dependencies": {
+    "chance": "^1.0.4",
     "co": "^4.6.0"
   },
   "devDependencies": {
